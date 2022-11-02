@@ -1,0 +1,10 @@
+
+/* general stuff like fonts, background color...*/
+
+* {
+  margin: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "username": "Matti",
+    "isPublic": true,
+    "token": "Jason Webbi Tokeni",
+    "history": [
+      "1",
+      "3"
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "title": "My awesome song",
+        "field": "Music",
+        "totalSkills": 5
+      },
+      {
+        "id": 3,
+        "title": "Runescape",
+        "field": "Game development",
+        "totalSkills": 1
+      }
+    ],
+    "projectsAsUser": [3],
+    "projectsAsOwner": [1],
+    "skills": [],
+    "bio": "This is my bio"
+  },
+  {
+    "id": 2,
+    "username": "Teppo",
+    "isPublic": true,
+    "token": "Jason Webbi Tokeni2",
+    "history": [
+      "4",
+      "5",
+      "1"
+    ],
+    "projects": [
+      {
+        "id": 4,
+        "title": "My not so awesome song",
+        "field": "Music",
+        "totalSkills": 2
+      },
+      {
+        "id": 5,
+        "title": "Emtpy project",
+        "field": "Empty",
+        "totalSkills": 1000
+      },
+      {
+        "id": 1,
+        "title": "My awesome song",
+        "field": "Music",
+        "totalSkills": 5
+      }
+    ],
+    "projectsAsUser": [1],
+    "projectsAsOwner": [2, 3],
+    "skills": [
+      "Programming",
+      "UNLIMITED POWER!!"
+    ],
+    "bio": "Hello I am Teppo and I am a .NET Programmer!"
+  }
+]

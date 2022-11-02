@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "My awesome song",
+    "field": "Music",
+    "skills": ["Music production", "Guitar", "Drums", "Singing", "Mixing"],
+    "description": "A cool song"
+  },
+  {
+    "id": 3,
+    "title": "Runescape",
+    "field": "Game Development",
+    "skills": ["Unity"],
+    "description": "A cool project 3"
+  }
+]

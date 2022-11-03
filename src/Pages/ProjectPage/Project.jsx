@@ -15,7 +15,6 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import { getUserById } from "../../Services/User";
 import ProjectProgress from "../../Components/ProjectProgress/ProjectProgress";
-import ChatPanel from "../../Components/ChatPanel/ChatPanel";
 import {
 	acceptApplicant,
 	addNewApplicant,
@@ -27,7 +26,6 @@ import {
 	LogLevel,
 	HttpTransportType,
 } from "@microsoft/signalr";
-import { ContactSupportOutlined } from "@mui/icons-material";
 import Chat from "../../Components/ChatPanel/Chat";
 
 const Project = () => {

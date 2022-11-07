@@ -72,7 +72,6 @@ const ProjectBanner = ({ banner }) => {
 						break;
 				}
 			}
-			console.log("Setting highlights" + projectSkillset);
 		},
 		[banner.id, projectSkillset, user],
 	);

@@ -14,5 +14,3 @@ root.render(
     </AppContext>
   </React.StrictMode>
 );
-
-

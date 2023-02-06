@@ -9,13 +9,13 @@ import { Login } from "../../Services/User"
 import { storageRead, storageRemove, storageSave } from "../../Utils/Storage"
 
 const Navbar = () => {
-  const [setError] = useState(null)
+  const [error, setError] = useState(null)
   const { user, setUser } = useUser()
 
   let publicClientApplication = new PublicClientApplication({
     auth: {
       clientId: config.appId,
-      redirectUri: config.redirectUri,
+    //   redirectUri: config.redirectUri,
     },
     cache: {
       cacheLocation: "localStorage",
@@ -77,7 +77,8 @@ const Navbar = () => {
           storageSave('Lagalt-user', {...tempUser, biography: res.result.value.biography, skills: res.result.value.skills})
         })
     } catch (err) {
-      setError(err)
+		setError(err)
+		console.log(error);
     }
   }
 

@@ -81,15 +81,6 @@ const Project = () => {
 		if (!num) {
 			setProjectContributors((prev) => [...prev, newContributor]);
 		}
-
-		/*
-		setProjectContributors(prev => [...prev, () => {
-			if([...prev].some((e)=>e.userId === newContributor.userId)) {
-				console.log('kukkuu 2')
-				return newContributor
-			}
-		}])
-		*/
 	};
 
 	const handleClickDecline = (event) => {
@@ -140,7 +131,6 @@ const Project = () => {
 			.then((response) => response.json())
 			.then((data) => {
 				setProject(data);
-				// console.log(data)
 				setProjectApplicants(data.applicants);
 				setProjectContributors(data.users);
 				if (user) {
@@ -161,7 +151,6 @@ const Project = () => {
 
 	const projectApplicant = () => {
 		if (userId !== owner.id && user !== null) {
-			// console.log(user);
 			return (
 				<div className="col-12">
 					<CssBaseline />

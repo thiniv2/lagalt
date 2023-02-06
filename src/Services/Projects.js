@@ -83,7 +83,6 @@ export const acceptApplicant = async (projectId, applicantId) => {
     return res
   })
   .then(() => {
-    console.log('kukkuu')
     const res = axios.put(url + 'project/' + projectId + '/deleteApplicant', applicantId, configProgress)
     return res
   })
